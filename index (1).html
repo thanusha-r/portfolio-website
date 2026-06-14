@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thanusha R | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">TR<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">👋 Hello, I'm</p>
+      <h1 class="hero-name">Thanusha R</h1>
+      <h2 class="hero-role">Frontend Developer</h2>
+      <p class="hero-desc">BSc Computer Science student at VIT, passionate about building clean and interactive web experiences.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-circle">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="180" height="180">
+          <circle cx="100" cy="75" r="40" fill="#c084fc"/>
+          <ellipse cx="100" cy="160" rx="60" ry="40" fill="#c084fc"/>
+        </svg>
+      </div>
+      <div class="avatar-ring"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag">Get to know me</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hi! I'm <strong>Thanusha R</strong>, a passionate frontend developer and BSc Computer Science student at <strong>VIT</strong>.</p>
+          <p>I love crafting beautiful, responsive websites using HTML, CSS, and JavaScript. I'm currently leveling up my skills in React.js and working on real-world projects to kickstart my tech career.</p>
+          <p>I believe in writing clean code, learning every day, and building things that make a difference.</p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <h4>Education</h4>
+              <p>BSc Computer Science<br/>VIT<br/>CGPA: 8.72 / 10</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-code"></i>
+            <div>
+              <h4>Focus</h4>
+              <p>Frontend Development<br/>UI/UX Enthusiast</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Chennai, Tamil Nadu<br/>India</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-trophy"></i>
+            <div>
+              <h4>Goal</h4>
+              <p>Land a Frontend Role<br/>at a Top Tech Company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <p class="section-tag">What I work with</p>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon html-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO-friendly structure</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon css-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, responsive design</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon js-icon"><i class="fab fa-js-square"></i></div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, ES6+, APIs, async/await</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon react-icon"><i class="fab fa-react"></i></div>
+          <h3>React.js</h3>
+          <p>Currently learning — components, hooks, state</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:30%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon git-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, repositories, collaboration</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon figma-icon"><i class="fab fa-figma"></i></div>
+          <h3>Figma</h3>
+          <p>UI design, wireframing, prototyping basics</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-tag">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img p1">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio to showcase my skills, projects and contact info. Built with HTML, CSS & JavaScript.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p2">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="project-info">
+            <h3>TodoPro</h3>
+            <p>A feature-rich task manager with add, edit, delete, and complete functionality. Includes priority levels, categories, date & time scheduling, reminder notifications, and localStorage support.
+</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p3">
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+          <div class="project-info">
+            <h3>WeatherMood</h3>
+            <p>A modern weather application featuring live weather data, district and city search, automatic location detection, dynamic themes, mood insights, and outfit recommendations powered by the OpenWeather API.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span><span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+  <div class="project-img p4">
+    <i class="fas fa-shopping-cart"></i>
+  </div>
+
+  <div class="project-info">
+    <h3>ShopEasy Store</h3>
+
+    <p>
+      A responsive e-commerce web application featuring
+product search, category filtering, price controls,
+cart management, quantity updates, and localStorage
+integration using HTML, CSS, and JavaScript.
+    </p>
+
+    <div class="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+      <a href="#"><i class="fab fa-github"></i> GitHub</a>
+      <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <p class="section-tag">Get in touch</p>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p>I'm open to frontend developer internships and fresher roles. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:thanusha@email.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>thanushathanusha666@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>https://www.linkedin.com/in/thanusha-r-aa114a31b</span>
+            </a>
+            <a href="https://github.com" target="_blank" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>https://github.com/thanusha-r</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <input type="text" placeholder="Your Name" id="nameInput"/>
+          <input type="email" placeholder="Your Email" id="emailInput"/>
+          <textarea placeholder="Your Message" id="msgInput" rows="4"></textarea>
+          <button onclick="sendMessage()" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          <p id="form-feedback"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Built by <strong>Thanusha R</strong> ✨</p>
+    <p class="footer-sub">BSc Computer Science · VIT · Vellore</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
