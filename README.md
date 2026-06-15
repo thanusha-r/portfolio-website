@@ -29,7 +29,9 @@ A modern personal portfolio website showcasing my skills, projects, achievements
 ## 🌐 Live Demo
 
 https://thanusha-r.github.io/portfolio-website/
+## 📸 Screenshot
 
+![Portfolio Screenshot](portfolio-home.png)
 ## 📸 Projects Showcased
 
 * TodoPro – Task Management Application
